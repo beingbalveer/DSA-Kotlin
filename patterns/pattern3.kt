@@ -1,5 +1,5 @@
 /**
- * 			Pattern 1
+ * 			Pattern 3
  * 			1
  * 			1 2
  * 			1 2 3
@@ -12,7 +12,7 @@ fun main() {
 }
 
 fun printPattern(n: Int) {
-    for(i in 1..5) {
+    for(i in 1..n) {
         for(j in 1..i) {
         	print("$j ")
     	}
